@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 'animate.css';
+body {
+    margin: 0;
+}
+
+.logo {
+    height :50px; 
+    width: 50px;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: .7s;
+
+    
+}
+
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo:hover{
+    height: 55px;
+    width: 55px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.nav-right {
+    text-align: right;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: .7s;
+}
+
+h1:hover {
+    font-size: 40px;
+}
+
+.achor {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.achor:hover {
+    font-size: 18px;;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    align-items: center;
+}
+
+.content {
+    text-align: right;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.home-left {
+    width: 60vw;
+    background-color: rgb(235, 235, 75);
+    align-items: center;
+    height: 85vh;
+}
+
+.home-right {
+    height: 85vh;
+    width: 50vw;}
+
+.png {
+    height: 31em;
+    width: 30vw;
+    position: relative;
+    left: 30%;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: .7s;
+}
+
+.png:hover {
+    position: relative;
+    left: 20%
+}
+
+.services-heading {
+    text-align: center;
+}
+
+.services {
+    height: 40vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.card-services {
+    height: 30vh;
+    width: 25vw;   
+    text-align: center;
+    margin-top: 0;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: rgb(235, 235, 75);
+    border-radius: 15px;
+    transition: ease-in-out;
+    transition-property: all;
+    transition-duration: .7s;
+    
+}
+
+.card-services:hover {
+    transition: ease-in-out;
+    transform: scale(1.05);
+    
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.contact-icon-s {
+    height: 50px;
+    width: 50px;
+    background-color:rgb(235, 235, 75);
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-right {
+    width: 100vw;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.input-forms {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    border-style: none;
+    align-items: center;   
+    position: relative;
+    padding-top: 10px;
+}
+
+input, textarea {
+    border-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(107, 98, 98, 0.3);
+    width: 350px;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: rgb(235, 235, 75);
+    width: 200px;
+    border-radius: 5px;
+}
